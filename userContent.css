@@ -1,0 +1,210 @@
+:root {
+
+	/* all values declared as variables here */
+	--bg-dark:  			#1F1F1F;
+	--bg-light: 			#282828;
+	--bg-highlight: 		#363636; /* also border*/
+	--bg-highdark:			#161616;
+
+	--text-bg:				#5f6368;
+	--text-dark:			#AAAAAA;
+	--text-light:			#FFFFFF;
+	--text-link:			#3EA6FF;
+	--text-link-visited: 	#C8BFE7;
+
+
+	/* dark scroll bar */
+	scrollbar-color: var(--bg-highlight) var(--bg-dark) !important;
+}
+
+@-moz-document domain(google.com) {
+
+	/* ************************************************ BEGIN background */
+	body {
+		background: var(--bg-dark) !important;
+	}
+
+	#hdtbSum {
+		background: var(--bg-dark) !important;
+	}
+
+	.appbar {
+		background: var(--bg-dark) !important;
+	}
+
+	.sfbg.nojsv {
+		background: var(--bg-dark) !important;
+	}
+
+	#hdtb {
+		border-bottom: 1px solid var(--bg-highlight) !important;
+	}	
+
+	#fbar { /* footer background and border */
+		background: var(--bg-dark) !important;
+		border-top: 1px solid var(--bg-highlight) !important;
+	}
+
+	.b2hzT { /* footer middle border */
+		border-bottom: 1px solid var(--bg-highlight) !important;
+	}
+	/* ************************************************ END background */
+
+	/* ************************************************ BEGIN results */
+	.s { /* snippet text */
+		color: var(--text-dark) !important;
+	}
+
+	em { /* highlighted keywords */
+		/*color: var(--text-light) !important;*/
+		color: var(--text-light) !important;
+	}
+
+	.LC20lb { /* result headlines */
+		color: var(--text-link) !important;
+	}
+
+	a:visited .LC20lb { /* visited result headlines */
+		color: var(--text-link-visited) !important;
+	}
+
+	.gL9Hy, .gL9Hy>a { /* corrected search */
+		color: var(--text-link) !important;
+	}
+
+	.spell_orig, .spell_orig>a { /* original search */
+		color: var(--text-link) !important;
+	}
+
+	.iUh30 { /* source links */
+		color: var(--text-bg) !important;
+	}
+
+	.GHDvEf { /* source link downward arrows background */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.fl { /* translate link */
+		color: var(--text-link) !important;
+	}
+
+	.fl:visited { /* translate link visited */
+		color: var(--text-link-visited) !important;
+	}
+
+	.kp-blk { /* "people also ask" border */
+		border: 1px solid var(--bg-highlight) !important;
+	}	
+
+	.cbphWd { /* "people also ask" internal border */
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.JolIg { /* "people also ask" heading color */
+		color: var(--text-light) !important;
+	}
+
+	.related-question-pair { /* "people also ask for" entries text color */
+		color: var(--text-dark) !important;
+	}
+
+	.iOBnre>a { /* "people also search for" search link color */
+		color: var(--text-link) !important;
+	}
+
+	.iOBnre>a:visited { /* "people also search for" search link visited color */
+		color: var(--text-link-visited) !important;
+	}
+	/* ************************************************ END results */
+
+	/* ************************************************ BEGIN searchbar */
+	.RNNXgb { /* searchbar background */
+		background: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.gLFyf { /* searchbar text */
+		color: var(--text-light) !important;
+	}
+
+	.aajZCb { /* search suggestions background */
+		background: var(--bg-light) !important;
+	}
+
+	.sbl1 { /* search suggestions text */
+		color: var(--text-light) !important;
+	}
+
+	.xtSCL { /* search suggestions top border */
+		border-top: 1px solid var(--bg-highlight) !important;
+	}
+
+	.lh87ke { /* search suggestions learn more link */
+		color: var(--text-link) !important;
+	}
+
+	.lh87ke:visited { /* search suggestions learn more link visited */
+		color :var(--text-link-visited) !important;
+	}
+
+	.sbhl { /* search suggestions highlighted background */
+		background: var(--bg-highlight) !important;
+	}
+	/* ************************************************ END searchbar */
+
+	.fbar * span { /* footer bar text */
+		color: var(--text-bg) !important;
+	}
+
+	.cur { /* current page number */
+		color: var(--text-light) !important;
+	}
+
+	.hdtb-tl:hover { /* search tools hover background */
+		background: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.hdtb-tl:active { /* search tools onclick text color */
+		color: var(--text-light) !important;
+	}
+
+	.hdtb-tl-sel { /* serach tools selected background */
+		background: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	/* ************************************************ BEGIN choose service menu */
+	.EHzcec { /* choose service menu background color */
+		background: var(--bg-dark) !important;
+	}
+
+	.Rq5Gcb { /* choose service menu options text color */
+		color: var(--text-dark) !important;
+	}
+
+	.tX9u1b:hover .Rq5Gcb { /* choose service menu options highlight text background color */
+		background-color: transparent !important;
+	}
+
+	.dGrefb { /* choose service menu middle border color */
+		border-bottom: 1px solid var(--bg-highlight) !important;
+	}
+
+	.NQV3m { /* choose service menu more button background, border, text color */
+		background-color: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+		color: var(--text-link) !important;
+	}
+
+	.j1ei8c>a:focus { /* choose service menu item highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.j1ei8c>a:hover { /* choose service menu item highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	
+	/* ************************************************ END choose service menu */
+}
