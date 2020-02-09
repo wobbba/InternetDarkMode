@@ -1,4 +1,4 @@
-The aim of this project is to turn the entire internet to Dark Mode. For this, a userContent.css file is being developed that has to be moved to the user's Profiles/chrome folder.
+The aim of this project is to turn the entire internet to Dark Mode. For this, a userContent.css file is being developed that has to be moved to the user's Profiles/chrome folder. This is supposed to replace things like the Stylish extension since those tend to be intransparent.
 
 Installing the custom Styles: 
 1. Open Firefox and press Alt to show the top menu, then click on Help → Troubleshooting Information

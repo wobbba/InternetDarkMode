@@ -176,7 +176,7 @@
 
 	/* ************************************************ BEGIN choose service menu */
 	.EHzcec { /* choose service menu background color */
-		background: var(--bg-dark) !important;
+		background: var(--bg-highdark) !important;
 	}
 
 	.Rq5Gcb { /* choose service menu options text color */
@@ -197,14 +197,86 @@
 		color: var(--text-link) !important;
 	}
 
+	.NQV3m:hover { /* choose service menu more button background, border, text color */
+		background-color: var(--bg-highlight) !important;
+	}
+
 	.j1ei8c>a:focus { /* choose service menu item highlight */
 		background-color: var(--bg-highlight) !important;
 	}
 
 	.j1ei8c>a:hover { /* choose service menu item highlight */
 		background-color: var(--bg-highlight) !important;
+	}	
+	/* ************************************************ END choose service menu */
+
+	.med { /* related searches heading color */
+		color: var(--text-light) !important;
 	}
 
-	
-	/* ************************************************ END choose service menu */
+	.nVcaUb>a { /* related Searches link color */
+		color: var(--text-link) !important;
+	}
+
+	.nVcaUb>a:visited { /* realted searches visited link colors */
+		color: var(--text-link-visited) !important;
+	}
+
+	/* ************************************************ BEGIN account menu */
+	.gb_F { /* account menu background */
+		background: var(--bg-highdark) !important;
+	}
+
+	.gb_yb.gb_yb { /* account menu background */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	.gb_Eb { /* account menu middle borders */
+		border-bottom: 1px solid var(--bg-highlight) !important;
+		border-top: 1px solid var(--bg-highlight) !important;
+	}
+
+	.gb_Lb { /* account menu middle borders */
+		border-top: 1px solid var(--bg-highlight) !important;
+	}
+
+	.gb_ob.gb_pb { /* name color */
+		color: var(--text-light) !important;
+	}
+
+	.gb_qb, .gb_yb.gb_2f { /* other text color */
+		color: var(--text-dark) !important;
+	}
+
+	.gb_4f.gb_vb>a { /* further links */
+		color: var(--text-link) !important;
+	}
+
+	.gb_4f.gb_vb>a:hover { /* further links hover */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.gb_4f.gb_vb>a:visited { /* further links visited */
+		color: var(--text-link-visited) !important;
+	}
+
+	.gb_Fb.gb_7f.gb_fg.gb_Pe.gb_Wc, .gb_ub.gb_6f.gbp1.gb_Pe.gb_Wc { /* button background, border color */
+		background-color: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.gb_Fb.gb_7f.gb_fg.gb_Pe.gb_Wc:hover, .gb_ub.gb_6f.gbp1.gb_Pe.gb_Wc:hover { /* button hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+	/* ************************************************ END account menu */
+
+	.cF4V5c { /* search settings */
+		background: var(--bg-highdark) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.cF4V5c>a:hover { /* search settings entry hover highlight */
+		background: var(--bg-highlight) !important;
+	}
 }
