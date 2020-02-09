@@ -12,12 +12,21 @@
 	--text-link:			#3EA6FF;
 	--text-link-visited: 	#C8BFE7;
 
+	/* mappings from base colors to site-specific variables should be done in the site-specific :root */
+
 
 	/* dark scroll bar */
 	scrollbar-color: var(--bg-highlight) var(--bg-dark) !important;
 }
 
 @-moz-document domain(google.com) {
+
+	:root {
+		--google-search-bar-bg: var(--bg-light);
+		--google-border-color: var(--bg-highlight);
+	}
+
+	/* ************************************************************************ BEGIN all page */
 
 	/* ************************************************ BEGIN background */
 	body {
@@ -37,16 +46,16 @@
 	}
 
 	#hdtb {
-		border-bottom: 1px solid var(--bg-highlight) !important;
+		border-bottom: 1px solid var(--google-border-color) !important;
 	}	
 
 	#fbar { /* footer background and border */
 		background: var(--bg-dark) !important;
-		border-top: 1px solid var(--bg-highlight) !important;
+		border-top: 1px solid var(--google-border-color) !important;
 	}
 
 	.b2hzT { /* footer middle border */
-		border-bottom: 1px solid var(--bg-highlight) !important;
+		border-bottom: 1px solid var(--google-border-color) !important;
 	}
 	/* ************************************************ END background */
 
@@ -93,11 +102,11 @@
 	}
 
 	.kp-blk { /* "people also ask" border */
-		border: 1px solid var(--bg-highlight) !important;
+		border: 1px solid var(--google-border-color) !important;
 	}	
 
 	.cbphWd { /* "people also ask" internal border */
-		border: 1px solid var(--bg-highlight) !important;
+		border: 1px solid var(--google-border-color) !important;
 	}
 
 	.JolIg { /* "people also ask" heading color */
@@ -119,8 +128,8 @@
 
 	/* ************************************************ BEGIN searchbar */
 	.RNNXgb { /* searchbar background */
-		background: var(--bg-light) !important;
-		border: 1px solid var(--bg-highlight) !important;
+		background: var(--google-search-bar-bg) !important;
+		border: 1px solid var(--google-border-color) !important;
 	}
 
 	.gLFyf { /* searchbar text */
@@ -128,7 +137,7 @@
 	}
 
 	.aajZCb { /* search suggestions background */
-		background: var(--bg-light) !important;
+		background: var(--google-search-bar-bg) !important;
 	}
 
 	.sbl1 { /* search suggestions text */
@@ -136,7 +145,7 @@
 	}
 
 	.xtSCL { /* search suggestions top border */
-		border-top: 1px solid var(--bg-highlight) !important;
+		border-top: 1px solid var(--google-border-color) !important;
 	}
 
 	.lh87ke { /* search suggestions learn more link */
@@ -162,7 +171,7 @@
 
 	.hdtb-tl:hover { /* search tools hover background */
 		background: var(--bg-light) !important;
-		border: 1px solid var(--bg-highlight) !important;
+		border: 1px solid var(--google-border-color) !important;
 	}
 
 	.hdtb-tl:active { /* search tools onclick text color */
@@ -171,7 +180,7 @@
 
 	.hdtb-tl-sel { /* serach tools selected background */
 		background: var(--bg-light) !important;
-		border: 1px solid var(--bg-highlight) !important;
+		border: 1px solid var(--google-border-color) !important;
 	}
 
 	/* ************************************************ BEGIN choose service menu */
@@ -188,12 +197,12 @@
 	}
 
 	.dGrefb { /* choose service menu middle border color */
-		border-bottom: 1px solid var(--bg-highlight) !important;
+		border-bottom: 1px solid var(--google-border-color) !important;
 	}
 
 	.NQV3m { /* choose service menu more button background, border, text color */
 		background-color: var(--bg-light) !important;
-		border: 1px solid var(--bg-highlight) !important;
+		border: 1px solid var(--google-border-color) !important;
 		color: var(--text-link) !important;
 	}
 
@@ -232,12 +241,12 @@
 	}
 
 	.gb_Eb { /* account menu middle borders */
-		border-bottom: 1px solid var(--bg-highlight) !important;
-		border-top: 1px solid var(--bg-highlight) !important;
+		border-bottom: 1px solid var(--google-border-color) !important;
+		border-top: 1px solid var(--google-border-color) !important;
 	}
 
 	.gb_Lb { /* account menu middle borders */
-		border-top: 1px solid var(--bg-highlight) !important;
+		border-top: 1px solid var(--google-border-color) !important;
 	}
 
 	.gb_ob.gb_pb { /* name color */
@@ -262,7 +271,7 @@
 
 	.gb_Fb.gb_7f.gb_fg.gb_Pe.gb_Wc, .gb_ub.gb_6f.gbp1.gb_Pe.gb_Wc { /* button background, border color */
 		background-color: var(--bg-light) !important;
-		border: 1px solid var(--bg-highlight) !important;
+		border: 1px solid var(--google-border-color) !important;
 		color: var(--text-dark) !important;
 	}
 
@@ -279,4 +288,92 @@
 	.cF4V5c>a:hover { /* search settings entry hover highlight */
 		background: var(--bg-highlight) !important;
 	}
+
+	/* ************************************************************************ END all page */
+
+	/* ************************************************************************ BEGIN images page */
+	/* ************************************************ BEGIN search bar */
+	.zthhpf { /* search bar background */
+		background: var(--google-search-bar-bg) !important;
+		border: 1px solid var(--google-border-color) !important;
+	}
+
+	.JSAgYe { /* search bar text color */
+		color: var(--text-light) !important;
+	}
+
+	.lV0vqc { /* search suggestions bg */
+		background: var(--google-search-bar-bg) !important;
+	}
+
+	.w4mFte { /* search suggestions text color */
+		color: var(--text-light) !important;
+	}
+
+	.fNHVKc { /* search suggestions top border */
+		border-top: 1px solid var(--google-border-color) !important;
+	}
+
+	.E2oEG:hover { /* search suggestions highlight */
+		background: var(--bg-highlight) !important;
+	}
+	/* ************************************************ END search bar */
+
+	/* ************************************************ BEGIN nav bar / chips */
+	.jZWadf { /* navbar */
+		background: var(--bg-dark) !important;
+	}
+
+	.ooPrBf { /* navbar bottom border */
+		border-bottom: 1px solid var(--google-border-color) !important;
+	}
+
+	.F9PbJd { /* chip */
+		background-color: var(--google-search-bar-bg) !important;
+		color: var(--text-dark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.F9PbJd.IJRrpb:hover { /* chip hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.cEW58 { /* chip scroll button */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	.PNyWAd.ZXJQ7c:hover, .PNyWAd.ZXJQ7c.XD1Bsc { /* Tools */
+		background: var(--bg-highlight) !important;
+		border: 1px solid var(--google-border-color) !important;
+	}
+
+	.PNyWAd.ZXJQ7c:active { /* onclick text color */
+		color: var(--text-light) !important;
+	}
+
+	.qcTKEe { /* tools options */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.r9PaP { /* tools options text colors */
+		color: var(--text-dark) !important;
+	}
+
+	.H1KrKd { /* tools options arrows */
+		fill: var(--text-dark) !important;
+	}
+
+	.Ix6LGe { /* tools options dropdown color */
+		background: var(--bg-highdark) !important;
+	}
+
+	.Hm7Qac:hover { /* tools options dropdown entry highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.igM9Le { /* tools options dropdown text color */
+		color: var(--text-dark) !important;
+	} 
+	/* ************************************************ END nav bar / chips */
+	/* ************************************************************************ END images page */
 }
