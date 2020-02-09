@@ -11,6 +11,7 @@
 	--text-light:			#FFFFFF;
 	--text-link:			#3EA6FF;
 	--text-link-visited: 	#C8BFE7;
+	--text-green:			#36C263;
 
 	/* mappings from base colors to site-specific variables should be done in the site-specific :root */
 
@@ -376,4 +377,120 @@
 	} 
 	/* ************************************************ END nav bar / chips */
 	/* ************************************************************************ END images page */
+}
+
+@-moz-document domain(www.ecosia.org) {
+	:root {
+
+	}
+
+	/* ************************************************************************ BEGIN WEB page */
+
+	/* ************************************************ BEGIN background */
+	.results-wrapper { /* page bg */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.search-header { /* header bg */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.navbar-row { /* navbar bg */
+		background: var(--bg-dark) !important;
+		border-bottom: 1px solid var(--bg-highlight) !important;
+	}
+
+	article.entity { /* best result bg */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	.search-header > .search-header-menu-group .pill { /* button bg */
+		background: var(--bg-light) !important;
+		border-color: var(--bg-highlight) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.footer {
+		border-top: 1px solid var(--bg-highlight) !important;
+	}
+
+	.small-footer {
+		background-color: var(--bg-dark) !important;
+	}
+
+	.dropdown-menu {
+		background-color: var(--bg-light) !important;
+	}
+
+	.dropdown-link {
+		color: var(--text-dark) !important;
+	}
+	/* ************************************************ END background */
+
+	/* ************************************************ BEGIN results */	
+	.result-title { /* result title */
+		color: var(--text-link) !important;
+	}
+
+	.result-title:visited { /* result title visited */
+		color: var(--text-link-visited) !important;
+	}
+
+	.result-snippet { /* result snippet */
+		color: var(--text-dark) !important;
+	}
+
+	.entity-title { /* best result title */
+		color: var(--text-light) !important;
+	}
+
+	.entity-block { /* best result text */
+		color: var(--text-dark) !important;
+	}
+
+	.result-url {
+		color: var(--text-green) !important;
+	}
+
+	.entity-description-more { /* read more link */
+		color: var(--text-link) !important;
+	}
+
+	.entity-description-more:visited {
+		color: var(--text-link-visited) !important;
+	}
+	/* ************************************************ END results */
+
+	/* ************************************************ BEGIN search bar */
+	.search-form-field {
+		background-color: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.typeahead { /* suggestions bg */
+		background-color: var(--bg-light) !important;
+	}
+
+	.typeahead-link { /* suggestion text */
+		color: var(--text-light) !important;
+	}
+
+	.typeahead-link:hover { /* hover highlight */
+		background: var(--bg-highlight) !important;
+	}
+
+	.search-form-input { /* search text */
+		color: var(--text-light) !important;
+	}
+
+	.navbar-link {
+		color: var(--text-dark) !important;
+	}
+	/* ************************************************ END search bar */
+
+
+	a[title="Wikipedia"]>.nav-list-icon.entity-link-icon>div>svg { /* invert wikipedia logo */
+		filter: invert(100%);
+	}
+	/* ************************************************************************ END WEB page */
 }
