@@ -27,6 +27,45 @@
 		--google-border-color: var(--bg-highlight);
 	}
 
+
+	/* ************************************************************************ BEGIN base page */
+	#hptl a { /* left header links color */
+		color: var(--text-dark) !important;
+	}
+
+	.gb_g { /* right header link color */
+		color: var(--text-dark) !important;
+	}
+
+	.gb_D.gb_pc { /* invert service menu color */
+		filter: invert();
+	}
+
+	.gNO89b, .RNmpXc { /* search button */
+		background: var(--bg-highdark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.gNO89b:hover, .RNmpXc:hover { /* search button hover highlight */
+		background: var(--bg-highlight) !important;
+	}
+
+	#SIvCob { /* "Google offered in" */
+		color: var(--text-dark) !important;
+	}
+
+	#SIvCob>a { /* "google offered in" language link color */
+		color: var(--text-link) !important;
+	}
+
+	#SIvCob>a:visited { /* "google offered in" language link color */
+		color: var(--text-link-visited) !important;
+	}
+
+	/* ************************************************************************ END base page */
+
+
 	/* ************************************************************************ BEGIN all page */
 
 	/* ************************************************ BEGIN background */
@@ -289,6 +328,32 @@
 	.cF4V5c>a:hover { /* search settings entry hover highlight */
 		background: var(--bg-highlight) !important;
 	}
+
+	/* ************************************************ BEGIN video snippets */
+
+	g-inner-card { /* bg */
+		background-color: var(--bg-highdark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.wCIBKb { /* link text color */
+		color: var(--text-link) !important;
+	}
+
+	.wCIBKb:visited { /* link visited text color */
+		color: var(--text-link-visited) !important;
+	}
+
+	g-fab { /* scroll button */
+		background-color: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	g-fab:hover { /* scroll button hover */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	/* ************************************************ END video snippets */	
 
 	/* ************************************************************************ END all page */
 
