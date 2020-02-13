@@ -10,8 +10,9 @@
 	--text-dark:			#AAAAAA;
 	--text-light:			#FFFFFF;
 	--text-link:			#3EA6FF;
-	--text-link-visited: 	#C8BFE7;
+	--text-link-visited: 	#9e8cdb;
 	--text-green:			#36C263;
+	--text-red:				#e05a5a;
 
 	/* mappings from base colors to site-specific variables should be done in the site-specific :root */
 
@@ -558,4 +559,172 @@
 		filter: invert(100%);
 	}
 	/* ************************************************************************ END WEB page */
+}
+
+@-moz-document domain(wikipedia.org) {
+	
+	body { /* sidebar bg */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.mw-body { /* article bg */
+		background-color: var(--bg-dark) !important;
+		color: var(--text-dark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+		border-right: none !important;
+	}
+
+	.mw-body a:not(.new) { /* article links color */
+		color: var(--text-link) !important;
+	}
+
+	.mw-body a:not(.new):visited { /* article links color visited */
+		color: var(--text-link-visited) !important;
+	}
+
+	a.new { /* article missing article link color */
+		color: var(--text-red) !important;
+	}
+
+	.mw-parser-output table { /* table background */
+		background-color: var(--bg-dark) !important;
+		border: 1px var(--bg-highlight) !important;
+	}
+
+	.firstHeading, h2>.mw-headline { /* article (sub-) heading color */
+		color: var(--text-light) !important;
+		border-bottom: 1px solid var(--bg-highlight) !important;
+	}
+
+	.noviewer[id="bksicon"]>img { /* disambiguation icon */
+		filter: invert(20%);
+	}
+
+	#mw-head { /* header bg */
+		background: var(--bg-dark) !important;
+	}
+
+	.vectorTabs>ul>li { /* header tabs */
+		background: var(--bg-dark) !important;
+
+	}
+
+	.vectorTabs>ul>li:hover { /* header tabs hover highlight */
+		background: var(--bg-light) !important;
+
+	}
+
+	.vectorTabs { /* tab divider */
+		background-image: linear-gradient(to bottom, var(--bg-dark) 0, var(--bg-highlight) 100%) !important;
+	}
+
+	.vectorTabs>ul>li>a { /* header tab links */
+		color: var(--text-link) !important;
+		background-image: linear-gradient(to bottom, var(--bg-dark) 0, var(--bg-highlight) 100%) !important;
+	}
+
+	.vectorTabs>ul>li>a:visited { /* header tab visited links */
+		color: var(--text-link-visited) !important;
+	}
+
+	.toc { /* table of contents */
+		background-color: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.tocnumber {
+		color: var(--text-link) !important;
+	}
+
+	.toctitle>h2, h3, h4, h5 { /* headings */
+		color: var(--text-light) !important;
+	}
+
+	.thumbinner { /* image container */
+		background-color: var(--bg-dark) !important;
+		border: none !important;
+	}
+
+	.thumbimage { /* image */
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.catlinks { /* links below sources */
+		background-color: var(--bg-dark) !important;
+		border: none !important;
+	}
+
+	#footer li { /* footer text */
+		color: var(--text-dark) !important;
+	}
+
+	#footer a { /* footer links */
+		color: var(--text-link) !important;
+	}
+
+	#footer a:visited { /* footer visited links */
+		color: var(--text-link-visited) !important;
+	}
+
+	#mw-panel a { /* sidebar links */
+		color: var(--text-link) !important;
+	}
+
+	#mw-panel a:visited { /* sidebar visited links */
+		color: var(--text-link-visited) !important;
+	}
+
+	.mw-wiki-logo { /* logo white text */
+		filter: invert(100%) !important;
+	}
+
+	.mw-wiki-logo::before { /* non inverted logo w/o text */
+		content: url(https://en.wikipedia.org/static/images/project-logos/enwiki.png);
+		position: absolute;
+		filter: invert(100%) !important;
+		left: 15px;
+		top: 3px;
+		height: 115px;
+		overflow: hidden;
+	}
+
+	input[id="searchInput"] { /* search field */
+		background-color: var(--bg-light) !important;
+		color: var(--text-light) !important;
+
+	}
+
+	input[id="searchInput"]::placeholder { /* search field placeholder */
+		color: var(--text-dark) !important;
+	}
+
+	#searchInput:focus, #simpleSearch:hover #searchInput:focus { /* serach field */
+		border-color: var(--bg-highlight) !important;
+		-webkit-box-shadow: none !important;
+		box-shadow: inset 0 0 0 1px #36c, inset 0 0 0 2px var(--bg-dark) !important;
+	}
+
+
+	.suggestions-results, .suggestions-result, .mw-searchSuggest-link, .suggestions-special, .special-query { /* search suggestions */
+		background-color: var(--bg-light) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.suggestions-result:hover, .mw-searchSuggest-link div:hover { /* search suggest hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	div[id="p-personal"]>ul>li>a { /* account links */
+		color: var(--text-link) !important;
+	}
+
+	.mw-ui-button { /* language button */
+		background-color: var(--bg-light) !important;
+		color: var(--text-dark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.mw-ui-button:hover { /* language button */
+		background-color: var(--bg-highlight) !important;
+	}
 }
