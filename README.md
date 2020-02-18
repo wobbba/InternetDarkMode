@@ -20,3 +20,11 @@ Should there be interest, there could be development started into a little appli
 As long as I haven't added a LICENSE file, be sure that I agree to all non-commercial uses of my code.
 
 Also if you want to help in the development, please do. I've never managed a public project before but I'm sure we can figure it out if there should be interest.
+
+### Development
+
+Firefox needs to be restarted for it to reread userContent.css and this project is best not saved in the profiles folder.
+Therefore the file can be edited here and is automatically copied to the required destination while
+`copyUserContent.bat` is running (on Windows).
+
+To restart Firefox, you can run `restartFF.bat` (on Windows).

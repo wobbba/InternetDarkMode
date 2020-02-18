@@ -1,18 +1,18 @@
 :root {
 
-	/* all values declared as variables here */
+	/* All values declared as variables here */
 	--bg-dark:  			#1F1F1F;
 	--bg-light: 			#282828;
-	--bg-highlight: 		#363636; /* also border*/
+	--bg-highlight: 		#363636; /* also border */
 	--bg-highdark:			#161616;
 
-	--text-bg:				#5f6368;
+	--text-bg:				#5F6368;
 	--text-dark:			#AAAAAA;
 	--text-light:			#FFFFFF;
 	--text-link:			#3EA6FF;
-	--text-link-visited: 	#9e8cdb;
+	--text-link-visited: 	#9E8CDB;
 	--text-green:			#36C263;
-	--text-red:				#e05a5a;
+	--text-red:				#E05A5A;
 
 	/* mappings from base colors to site-specific variables should be done in the site-specific :root */
 
@@ -628,7 +628,7 @@
 	}
 
 	.toc { /* table of contents */
-		background-color: var(--bg-light) !important;
+		background-color: var(--bg-dark) !important;
 		border: 1px solid var(--bg-highlight) !important;
 	}
 
@@ -698,7 +698,7 @@
 		color: var(--text-dark) !important;
 	}
 
-	#searchInput:focus, #simpleSearch:hover #searchInput:focus { /* serach field */
+	#searchInput:focus, #simpleSearch:hover #searchInput:focus { /* search field */
 		border-color: var(--bg-highlight) !important;
 		-webkit-box-shadow: none !important;
 		box-shadow: inset 0 0 0 1px #36c, inset 0 0 0 2px var(--bg-dark) !important;
@@ -710,7 +710,7 @@
 		color: var(--text-dark) !important;
 	}
 
-	.suggestions-result:hover, .mw-searchSuggest-link div:hover { /* search suggest hover highlight */
+	.suggestions-result:hover, .mw-searchSuggest-link div:hover { /* search suggest hover highlight  */
 		background-color: var(--bg-highlight) !important;
 	}
 
@@ -727,4 +727,11 @@
 	.mw-ui-button:hover { /* language button */
 		background-color: var(--bg-highlight) !important;
 	}
+
+	.wikitable, .wikitable th, .wikitable td { /* table */
+		background-color: var(--bg-dark) !important;
+		color: var(--text-dark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
 }
