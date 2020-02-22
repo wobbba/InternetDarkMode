@@ -21,7 +21,7 @@
 	scrollbar-color: var(--bg-highlight) var(--bg-dark) !important;
 }
 
-@-moz-document domain(google.com) {
+@-moz-document domain(www.google.com) {
 
 	:root {
 		--google-search-bar-bg: var(--bg-light);
@@ -98,6 +98,14 @@
 	.b2hzT { /* footer middle border */
 		border-bottom: 1px solid var(--google-border-color) !important;
 	}
+
+	.vk_c { /* money conversion widget bg */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	#swml { /* footer separator */
+		border-left: 1px solid var(--bg-highlight) !important;
+	}
 	/* ************************************************ END background */
 
 	/* ************************************************ BEGIN results */
@@ -165,6 +173,75 @@
 	.iOBnre>a:visited { /* "people also search for" search link visited color */
 		color: var(--text-link-visited) !important;
 	}
+
+	.vk_bk, .Hg3mWc { /* money conversion widget important text */
+		color: var(--text-light) !important;
+	}
+
+	.c8Zgcf, .hqAUc { /* money conversion widget other text */
+		color: var(--text-dark) !important;
+	}
+
+	.Hg3mWc { /* amount input */
+		border: 1px solid var(--bg-highlight) !important;
+		background: var(--bg-light) !important;
+	}
+
+	.R9zNe, .uWmgv { /* currency selector */
+		background-color: var(--bg-light) !important;
+	}
+
+	.J8cLR { /* currency selector */
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.knowledge-finance-wholepage-chart__hover-card { /* diagram tooltip */
+		background-color: var(--bg-light) !important;
+	}
+
+	.knowledge-finance-wholepage-chart__hover-card span { /* diagram tooltip text */
+		color: var(--text-light) !important;
+	}
+
+	.NDTw3e.K7R36c { /* diagram time range */
+		color:var(--text-dark) !important;
+	}
+
+	.fw-ch-sel .KWk7r.qUjgX { /* selected time range */
+		background: var(--bg-light) !important;
+		color: var(--text-link) !important;
+	}
+
+	.iHd7Ld { /* diagram y axis numbering */
+		background: var(--bg-highdark) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.uch-xa-tl { /* diagram x axis numbering */
+		background: var(--bg-highdark) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.vk_c { /* money conversion widget border */
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.NXHf6d { /* disclaimer link */
+		color: var(--text-link) !important;
+	}
+
+	.e2BEnf.U7izfe a, .wUrVib, .EZRelc, .Q2MMlc { /* image snippets link */
+		color: var(--text-link) !important;
+	}
+
+	#irl_r_a:hover { /* image snippets report images hover */
+		color: var(--text-light) !important;
+	}
+
+	.sFZIhb { /* PDF indicator */
+		border: 1px solid var(--bg-highlight) !important;
+		color: var(--text-dark) !important;
+	}
 	/* ************************************************ END results */
 
 	/* ************************************************ BEGIN searchbar */
@@ -204,6 +281,10 @@
 
 	.fbar * span { /* footer bar text */
 		color: var(--text-bg) !important;
+	}
+
+	.B4GxFc a:hover {
+		color: var(--text-light) !important;
 	}
 
 	.cur { /* current page number */
@@ -319,6 +400,28 @@
 	.gb_Fb.gb_7f.gb_fg.gb_Pe.gb_Wc:hover, .gb_ub.gb_6f.gbp1.gb_Pe.gb_Wc:hover { /* button hover highlight */
 		background-color: var(--bg-highlight) !important;
 	}
+
+	.gb_ub, .gb_Fb { /* manage google account button */
+		background-color: var(--bg-light) !important;
+		color: var(--text-dark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.gb_ub:hover, .gb_Fb:hover { /* manage google account hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.gb_Db { /* add account link */
+		color: var(--text-dark) !important;
+	}
+
+	.gb_wb { /* pp/tou links */
+		color: var(--text-link) !important;
+	}
+
+	.gb_wb { /* pp/tou links hover highlight */
+		background-color: transparent !important;
+	}
 	/* ************************************************ END account menu */
 
 	.cF4V5c { /* search settings */
@@ -348,6 +451,7 @@
 	g-fab { /* scroll button */
 		background-color: var(--bg-light) !important;
 		border: 1px solid var(--bg-highlight) !important;
+		color: var(--text-light) !important;
 	}
 
 	g-fab:hover { /* scroll button hover */
@@ -443,6 +547,118 @@
 	} 
 	/* ************************************************ END nav bar / chips */
 	/* ************************************************************************ END images page */
+}
+
+@-moz-document domain(calendar.google.com) {
+
+	body, header, .Kk7lMc-DWWcKd-OomVLb-haAclf, .tNDBE { /* left sidebar, header, right sidebar, calendar background */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.akJTWe, .TKMrfe { /* week number */
+		background-color: var(--bg-highdark) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.yzYBvd { /* day number */
+		color: var(--text-dark) !important;
+	}
+
+	.SGWAac { /* header bottom border */
+		border-top: var(--bg-highlight) 1px solid !important;
+	}
+
+	.SaBhMc { /* create event button */
+		background-color: var(--bg-light) !important;
+	}
+
+	.u5sQsb {
+		color: var(--text-light) !important;
+	}
+
+	.r4nke, .gb_8d.gb_Zc, .rSoRzd { /* headings */
+		color: var(--text-light) !important;
+	}
+
+	.t8qpF { /* days */
+		border-right: var(--bg-highlight) 1px solid !important;
+	}
+
+	.QIadxc { /* row of days */
+		border-bottom: var(--bg-highlight) 1px solid !important;
+	}
+
+	div.gboEAb { /* right sidebar */
+		border-left: var(--bg-highlight) 1px solid !important;
+	}
+
+	.GXlaye.qRI4pc { /* today button */
+		background-color: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.GXlaye.qRI4pc:hover { /* today button hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.RveJvd.snByac {
+		color: var(--text-light) !important;
+	}
+
+	.Cd9hpd { /* time range selector */
+		background-color: var(--bg-light) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.NlWrkb.snByac {
+		color: var(--text-light) !important;
+	}
+
+	.Cd9hpd:hover { /* time range selector hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.JPdR6b { /* time range selector dialog */
+		background: var(--bg-highdark) !important;
+	}
+
+	.z80M1 { /* time range selector dialog text */
+		color: var(--text-light) !important;
+	}
+
+	.ef2wWc { /* today */
+		background-color: var(--bg-light) !important;
+	}
+
+	.g3dbUc.smECzc { /* events */
+		background-color: var(--bg-highdark) !important;
+		color: var(--text-light) !important;
+	}
+
+	.g3dbUc.smECzc:hover { /* events hover */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.g3dbUc.KCIIIb { /* more events */
+		color: var(--text-dark) !important;
+	}
+
+	.g3dbUc.KCIIIb:hover { /* more events */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.OWyNBb.m1fiJb { /* sidebar calendar week number */
+		background-color: var(--bg-highdark) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.W0m3G .r4nke { /* sidebar calendar days */
+		background-color: var(--bg-light) !important;
+	}
+
+	.RWvJ9d { /* sidebar calendar bg */
+		background-color: var(--bg-dark) !important;
+	}
 }
 
 @-moz-document domain(www.ecosia.org) {
