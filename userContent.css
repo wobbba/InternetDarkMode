@@ -306,8 +306,9 @@
 	}
 
 	/* ************************************************ BEGIN choose service menu */
-	.EHzcec { /* choose service menu background color */
+	.EHzcec, .LVal7b { /* choose service menu background color */
 		background: var(--bg-highdark) !important;
+		background-color: var(--bg-highdark) !important;
 	}
 
 	.Rq5Gcb { /* choose service menu options text color */
@@ -459,6 +460,41 @@
 	}
 
 	/* ************************************************ END video snippets */	
+
+	.q.qs, .hdtb-dd-b, .hdtb-tl { /* navbar text */
+		color: var(--text-dark) !important;
+	}
+
+	.Mw2I7 { /* image suggestion chips */
+		background-color: var(--bg-highdark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+		color: var(--text-dark) !important;
+	}
+
+	#isr_chc g-right-button {
+		background: linear-gradient(270deg, var(--bg-dark) 10%, rgba(255,255,255,0)) !important;
+	}
+
+	#isr_chc g-left-button {
+		background: linear-gradient(90deg, var(--bg-dark) 10%, rgba(255,255,255,0)) !important;
+	}
+
+	.twpSFc.mnr-c { /* ad */
+		background: var(--bg-highdark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.Nfv1Lc {
+		color: var(--text-dark) !important;
+	}
+
+	.twpSFc.mnr-c a {
+		color: var(--text-link) !important;
+	}
+
+	.twpSFc.mnr-c a:visited {
+		color: var(--text-link-visited) !important;
+	}
 
 	/* ************************************************************************ END all page */
 
@@ -668,6 +704,10 @@
 
 	/* ************************************************************************ BEGIN WEB page */
 
+	.logo-anchor path[fill="#4B4A4B"] { /* logo text */
+		fill: var(--text-light) !important;
+	}
+
 	/* ************************************************ BEGIN background */
 	.results-wrapper { /* page bg */
 		background-color: var(--bg-dark) !important;
@@ -774,6 +814,40 @@
 	a[title="Wikipedia"]>.nav-list-icon.entity-link-icon>div>svg { /* invert wikipedia logo */
 		filter: invert(100%);
 	}
+
+	.tns-item { /* video card bg */
+		background: var(--bg-highdark) !important;
+	}
+
+	.thumbnail-title { /* video card title */
+		color: var(--text-link) !important;
+	}
+
+	a:visited .thumbnail-title {
+		color: var(--text-link-visited) !important;
+	}
+
+	.thumbnail-publisher {
+		color: var(--text-green) !important;
+	}
+
+	.video-slider-next, .video-slider-prev {
+		background: var(--bg-highdark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.video-slider-next:hover, .video-slider-prev:hover {
+		background: var(--bg-highlight) !important;
+	}
+
+	.video-slider-next circle, .video-slider-prev circle {
+		fill: var(--bg-highdark) !important;
+	}
+
+	.more-results-link {
+		color: var(--text-link) !important;
+	}
+
 	/* ************************************************************************ END WEB page */
 }
 
