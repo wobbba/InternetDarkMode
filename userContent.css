@@ -1025,3 +1025,75 @@
 	}
 
 }
+
+@-moz-document domain(github.com) {
+
+	body {
+		background: var(--bg-dark) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.bg-gray-light { /* header */
+		background: var(--bg-dark) !important;
+	}
+
+	.pagehead h1 a { /* header repo name */
+		color: var(--text-link) !important;
+	}
+	.pagehead {
+		border-bottom: 1px solid var(--bg-highlight) !important;
+	}
+
+	.text-gray-dark { /* repo description */
+		color: var(--text-dark) !important;
+	}
+
+	.Box, .Box-header { /* readme */
+		background: var(--bg-dark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.Box-body {
+		border-bottom: 1px solid var(--bg-highlight) !important;
+	}
+
+	.border-top {
+		border-top: 1px solid var(--bg-highlight) !important;
+	}
+
+	table.files { /* repo */
+		background : var(--bg-dark) !important;
+	}
+
+	table.files tr.js-navigation-item.navigation-focus td {
+		background: var(--bg-highlight) !important;
+	}
+
+	table.files td {
+		border-top: 1px solid var(--bg-highlight) !important;
+	}
+
+	table.files a.js-navigation-open {
+		color: var(--text-link) !important;
+	}
+
+	.repository-content path { /* icons */
+		fill: var(--text-dark) !important;
+	}
+
+	.overall-summary, .repository-lang-stats-graph {
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.footer a { /* footer links */
+		color: var(--text-link) !important;
+	}
+
+	.reponav-item, .reponav-item .Counter {
+		color: var(--text-dark) !important;
+	}
+
+	.reponav-item:focus, .reponav-item:hover, .reponav-item:hover .Counter {
+		color: var(--text-light) !important;
+	}
+}
