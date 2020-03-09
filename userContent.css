@@ -811,8 +811,8 @@
 	/* ************************************************ END search bar */
 
 
-	a[title="Wikipedia"]>.nav-list-icon.entity-link-icon>div>svg { /* invert wikipedia logo */
-		filter: invert(100%);
+	a[title="Wikipedia"]>.nav-list-icon.entity-link-icon>div>svg, li[data-track-id="more_wikipedia"]>svg, li[data-track-id="more_amazon"]>svg { /* invert logo */
+		filter: invert(100%) !important;
 	}
 
 	.tns-item { /* video card bg */
@@ -848,6 +848,29 @@
 		color: var(--text-link) !important;
 	}
 
+	.pagination-button.active {
+		color: var(--text-light) !important;
+	}
+
+	.after-results-info {
+		border-top: 1px solid var(--bg-highlight) !important;
+	}
+
+	.icons-dropdown-list li:hover {
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.icons-dropdown-list.dropdown-menu a {
+		color: var(--text-light) !important;
+	}
+
+	.entity-description-more, .entity-description-more:hover, .entity-disambiguation-title, .entity-disambiguation-title:hover, .entity-extra-more, .entity-extra-more:hover, .sidebar-product-ad-title, .sidebar-product-ad-title:hover {
+		color: var(--text-link) !important;
+	}
+
+	.mw-parser-output .portal {
+		border: 1px solid var(--bg-highlight) !important;
+	}
 	/* ************************************************************************ END WEB page */
 }
 
@@ -1024,6 +1047,35 @@
 		border: 1px solid var(--bg-highlight) !important;
 	}
 
+	.vertical-navbox th, .vertical-navbox td {
+		background: var(--bg-dark) !important;
+	}
+
+	div.NavHead {
+		background: var(--bg-dark) !important;
+		color: var(--text-light) !important;
+	}
+
+	.navbox {
+		background: var(--bg-dark) !important;
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	.navbox * {
+		background: var(--bg-dark) !important;
+	}
+
+	tr + tr > .navbox-abovebelow, tr + tr > .navbox-group, tr + tr > .navbox-image, tr + tr > .navbox-list {
+		border-top: 2px solid var(--bg-highlight) !important;
+	}
+
+	.navbox-list {
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.mbox-text.plainlist {
+		color: var(--text-dark) !important;
+	}
 }
 
 @-moz-document domain(github.com) {
@@ -1095,5 +1147,103 @@
 
 	.reponav-item:focus, .reponav-item:hover, .reponav-item:hover .Counter {
 		color: var(--text-light) !important;
+	}
+
+	.markdown-body pre { /* code block bg */
+		background: var(--bg-highdark) !important;
+	}
+
+	.markdown-body img { /* links for some reason */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.markdown-body pre span { /* code highlighting brightening */
+		filter: brightness(250%);
+	}
+
+	.markdown-body table tr { /* tables */
+		background-color: var(--bg-light) !important;
+	}
+
+	.markdown-body table tr:nth-child(2n) { /* second rows of tables */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.markdown-body table td, .markdown-body table th { /* table borders */
+		border: 1px solid var(--bg-highlight) !important;
+	}
+
+	blockquote { /* quote block */
+		color: var(--text-dark) !important;
+	}
+
+	.markdown-body a {
+		color: var(--text-link) !important;
+	}
+
+	.markdown-body a:visited {
+		color: var(--text-link-visited) !important;
+	}
+
+	.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 { /* headers */
+		color: var(--text-light) !important;
+	}
+
+	.gh-header {
+		background-color: var(--bg-dark) !important;
+		color: var(--text-light) !important;
+	}
+
+	.reponav-item.selected {
+		background-color: var(--bg-light) !important;
+		border-color: var(--text-red) var(--bg-highlight) transparent !important;
+	}
+
+	summary, .social-count, form button { /* statistics buttons */
+		background: var(--bg-light) !important;
+		color: var(--text-light) !important;
+	}
+
+	summary:hover, .social-count:hover, form button:hover {
+		background: var(--bg-highlight) !important;
+	}
+
+	.filter-bar {
+		background-color: var(--bg-dark) !important;
+		border-bottom: 1px solid var(--bg-highlight) !important;
+	}
+
+	.form-control, .form-select {
+		border: 1px solid var(--bg-highlight) !important;
+		background: var(--bg-light) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.form-control::placeholder, .form-select::placeholder {
+		color: var(--text-dark) !important;
+	}
+
+	clipboard-copy {
+		background: var(--bg-light) !important;
+	}
+
+	clipboard-copy:hover {
+		background: var(--bg-highlight) !important;
+	}
+
+	.Box a {
+		color: var(--text-link) !important;
+	}
+
+	.Box a:visited {
+		color: var(--text-link-visited) !important;
+	}
+
+	.Box-row {
+		border-top: 1px solid var(--bg-highlight) !important;
+	}
+
+	.markdown-body hr { /* horizontal rule */
+		background-color: var(--bg-highlight) !important;
 	}
 }
