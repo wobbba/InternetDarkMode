@@ -633,7 +633,7 @@
 		border: 1px solid var(--bg-highlight) !important;
 	}
 
-	.GXlaye.qRI4pc:hover { /* today button hover highlight */
+	.GXlaye.qRI4pc:hover, .U26fgb:hover { /* today button hover highlight */
 		background-color: var(--bg-highlight) !important;
 	}
 
@@ -688,13 +688,148 @@
 		color: var(--text-dark) !important;
 	}
 
-	.W0m3G .r4nke { /* sidebar calendar days */
+	.W0m3G:not(.TUH0Sd) .r4nke { /* sidebar calendar days */
+		background-color: var(--bg-dark) !important;
+	}
+	.W0m3G.i8dSE:not(.TUH0Sd) .r4nke { /* sidebar calendar days */
 		background-color: var(--bg-light) !important;
+	}
+	.W0m3G:not(.TUH0Sd) .r4nke:hover { /* sidebar calendar days */
+		background-color: var(--bg-highlight) !important;
 	}
 
 	.RWvJ9d { /* sidebar calendar bg */
 		background-color: var(--bg-dark) !important;
 	}
+
+	.OCQPo, .GENA3c, .Gk2izd { /* day view centre bg */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.YvjgZe, .CIFHgc, .wyrRZc, .mmsF1c::after, .PhLhOd { /* centre border */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.pCoqfc, .MANBAf { /* day view legend text color */
+		color: var(--text-dark) !important;
+	}
+
+	.C5Jlgc, .MVMVEe { /* little nook at the top */
+		border-color: transparent !important;
+	}
+
+	.NI2kfb { /* sidebar calenders text */
+		color: var(--text-light) !important;
+	}
+
+	.kMp0We.OcVpRe:hover {
+		background-color: var(--bg-light) !important;
+	}
+
+	.GENA3c { /* sidebar border */
+		border-left: var(--bg-light) 1px solid !important;
+	}
+
+	.MmhHI { /* day view day number */
+		color: var(--text-light) !important;
+	}
+
+	.EfQccc.Hrn1mc.EiZ8Dd::after { /* border around indented events */
+		border: 1px solid var(--bg-light) !important;
+	}
+
+	.OWyNBb.m1fiJb { /* sidebar small calendar week number */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.J2aUD.T8M5bd .sx5BGe::before, .SGFqbe.T8M5bd .sx5BGe::before, .J2aUD.T8M5bd .qmFsL::after, .SGFqbe.T8M5bd .qmFsL::after, .hEtGGf::after { /* gradients are useless */
+		background-image: linear-gradient(to right, transparent, transparent) !important;
+	}
+
+	.v83gc, .eADW5d { /* week view bg */
+		background-color: var(--bg-dark) !important;
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.rFrNMe.Ax4B8.ULpymb.zKHdkd.Tyc9J { /* sidebar search contacts */
+		background-color: var(--bg-light) !important;
+	}
+
+	.YxiWic.UMArVc, .IIB0tc .ULpymb { /* sidebar search contacts */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.u3WVdc.jBmls { /* sidebar search contacts context menu bg */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	.oKubKe[aria-selected="true"] { /* sidebar search contacts context menu hover highlight */
+		background-color: var(--bg-light) !important;
+	}
+
+	.wWdzec { /* week number bg */
+		background-color: var(--bg-light) !important;
+	}
+
+	.yzYBvd { /* month view day number */
+		color: var(--text-light) !important;
+	}
+
+	.yzYBvd:hover { /* month view day number hover highlight */
+		background-color: var(--bg-light) !important;
+	}
+
+	.gb_ne.gb_9c { /* calendar text */
+		color: var(--text-light) !important;
+	}
+
+	.uHMk6b { /* sidebar calendars unchecked box inside */
+		border-color: var(--bg-dark) !important;
+	}
+
+	.JtukPc, .XOE24 { /* create event dialog bg */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	.ik71Ie { /* create event dialog headbar bg */
+		background-color: var(--bg-light) !important;
+		box-shadow: var(--bg-highlight) !important;
+	}
+
+	.shdZ7e .zHQkBf { /* create event dialog title */
+		color: var(--text-light) !important;
+	}
+
+	.qmv2fc.KKjvXb { /* create event dialog type select bg */
+		background-color: var(--bg-light) !important;
+	}
+
+	.qmv2fc:hover { /* create event dialog type select hover highlight */
+		background-color: var(--bg-light) !important;
+	}
+
+	.kxh2c.sUvU0d.sMVRZe { /* create event dialog horizontal borders */
+		border-color: var(--bg-light) !important;
+	}
+
+	.h7kDxc, .vRMGwf.oJeWuf, .WpDZC.zHQkBf, .cAP2G { /* create event dialog text */
+		color: var(--text-dark) !important;
+	}
+
+	.ettIx.gHlG4 { /* create event dialog add description field */
+		background-color: var(--bg-dark) !important;
+		color: var(--text-light) !important;
+	}
+
+	.Ce1Y1c, .iSSROb.snByac { /* create event dialog add description field headbar buttons */
+		color: var(--text-dark) !important;
+	}
+
+	.Erb9le:not(.RDPZE) .qmMNRc.y7OZL { /* create event dialog add description field headbar buttons selected */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	/* TODO create event dialog add description headbar dividers  */
 }
 
 @-moz-document domain(www.ecosia.org) {
@@ -864,7 +999,9 @@
 		color: var(--text-light) !important;
 	}
 
-	.entity-description-more, .entity-description-more:hover, .entity-disambiguation-title, .entity-disambiguation-title:hover, .entity-extra-more, .entity-extra-more:hover, .sidebar-product-ad-title, .sidebar-product-ad-title:hover {
+	.entity-description-more, .entity-description-more:hover, .entity-disambiguation-title,
+	.entity-disambiguation-title:hover, .entity-extra-more, .entity-extra-more:hover, .sidebar-product-ad-title,
+	.sidebar-product-ad-title:hover {
 		color: var(--text-link) !important;
 	}
 
