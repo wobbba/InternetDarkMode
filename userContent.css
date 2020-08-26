@@ -2,7 +2,7 @@
 
 	/* All values declared as variables here */
 	--bg-dark:  			#1F1F1F;
-	--bg-light: 			#282828;
+	--bg-light: 			#2b2b2b;
 	--bg-highlight: 		#363636; /* also border */
 	--bg-highdark:			#161616;
 
@@ -829,7 +829,42 @@
 		background-color: var(--bg-highlight) !important;
 	}
 
-	/* TODO create event dialog add description headbar dividers  */
+	.XOE24 .AMBzld { /* create event dialog description field headbar dividers */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.ETkhPe { /* create reminder dialog text */
+		color: var(--text-dark) !important;
+	}
+
+	.uVccjd:not(.N2RpBe) { /* create reminder dialog all day checkbox */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.Qfwgwb.zKHdkd.lwv98 { /* create task dialog textarea */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.LV4Pme.tL9Q4c { /* create task dialog textarea text */
+		color: var(--text-light) !important;
+	}
+
+	.I7OXgf.dT3uCc.gF3fI.fNxzgd.Inn9w.iWO5td { /* change recurring event dialog */
+		background-color: var(--bg-highdark) !important;
+		color: var(--text-light) !important;
+	}
+
+	.LLxvl { /* schedule view text */
+		color: var(--text-light) !important;
+	}
+
+	.L1Ysrb, .d3Ig7c { /* schedule view dividers */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.FwR7Pc, .iWO5td { /* view select highlight */
+		background-color: var(--bg-light) !important;
+	}
 }
 
 @-moz-document domain(www.ecosia.org) {
