@@ -865,6 +865,28 @@
 	.FwR7Pc, .U26fgb.c7fp5b.FS4hgd.wXaa9.mAozAc.iWO5td { /* view select highlight */
 		background-color: var(--bg-light) !important;
 	}
+
+	.KSxb4d.RKLVef:not(.F262Ye):hover { /* week view day number hover highlight */
+		background-color: var(--bg-light) !important;
+	}
+
+	.p9lUpf { /* edit event bg */
+		background-color: var(--bg-dark) !important;
+	}
+
+	.Kb2sf, .DyOaYd, .jZ0DTb, .HLI7qf, .FpmPAb.FpmPAb, .uArJ5e.UQuaGc.kCyAyd { /* edit event control elements bg */
+		background-color: var(--bg-light) !important;
+	}
+
+	.jZ0DTb:hover, .HLI7qf:hover, .FpmPAb.FpmPAb:hover, .uArJ5e.UQuaGc.kCyAyd:hover { /* edit event buttons hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.uArJ5e.UQuaGc.kCyAyd.rhtYVe.mIlXRd { /* edit event add notifications button */
+		margin-left: 0px !important;
+	}
+
+	/* TODO continue edit event */
 }
 
 @-moz-document domain(www.ecosia.org) {
