@@ -862,7 +862,7 @@
 		border-color: var(--bg-highlight) !important;
 	}
 
-	.FwR7Pc, .iWO5td { /* view select highlight */
+	.FwR7Pc, .U26fgb.c7fp5b.FS4hgd.wXaa9.mAozAc.iWO5td { /* view select highlight */
 		background-color: var(--bg-light) !important;
 	}
 }
@@ -1246,6 +1246,19 @@
 	}
 
 	.mbox-text.plainlist {
+		color: var(--text-dark) !important;
+	}
+
+	.infobox {
+		color: var(--text-dark) !important;
+	}
+
+	.fn, .infobox th { /* infobox heading */
+		color: var(--text-light) !important;
+	}
+
+	.mwe-popups, .mwe-popups-extract, .mwe-popups-extract * {
+		background-color: var(--bg-highdark) !important;
 		color: var(--text-dark) !important;
 	}
 }
