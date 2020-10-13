@@ -25,6 +25,6 @@ Also if you want to help in the development, please do. I've never managed a pub
 
 Firefox needs to be restarted for it to reread userContent.css and this project is best not saved in the profiles folder.
 Therefore the file can be edited here and is automatically copied to the required destination while
-`copyUserContent.bat` is running (on Windows).
+`copyUserContent.bat` is running (on Windows). Make sure the `chrome` folder is present.
 
 To restart Firefox, you can run `restartFF.bat` (on Windows).

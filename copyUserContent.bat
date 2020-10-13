@@ -24,7 +24,7 @@ for /f "delims=" %%i in ('forfiles /m userContent.css /C "cmd /c echo @ftime"') 
 echo copied project file to profile folder at %FileDate%
 
 :daemon
-sleep 1
+timeout /t 1
 REM "delims=" is required to avoid stripping AM/PM
 for /f "delims=" %%i in ('forfiles /m userContent.css /C "cmd /c echo @ftime"') do set NewFileDate=%%i
 if %NewFileDate% equ %FileDate% (
