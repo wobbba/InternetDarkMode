@@ -106,6 +106,19 @@
 	#swml { /* footer separator */
 		border-left: 1px solid var(--bg-highlight) !important;
 	}
+
+	.MGqjK, .VibNM { /* video results bg */
+		background-color: var(--bg-highdark) !important;
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.kp-blk { /* special boxes (featured snippets, people also ask) bg */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	.sfbg { /* all results top banner bg */
+		background-color: var(--bg-dark) !important;
+	}
 	/* ************************************************ END background */
 
 	/* ************************************************ BEGIN results */
@@ -113,8 +126,7 @@
 		color: var(--text-dark) !important;
 	}
 
-	em { /* highlighted keywords */
-		/*color: var(--text-light) !important;*/
+	.aCOpRe em { /* highlighted keywords */
 		color: var(--text-light) !important;
 	}
 
@@ -241,6 +253,68 @@
 	.sFZIhb { /* PDF indicator */
 		border: 1px solid var(--bg-highlight) !important;
 		color: var(--text-dark) !important;
+	}
+
+	.cfBJGe { /* definition more button*/
+		color: var(--text-link) !important;
+	}
+
+	.gJBeNe { /* definition title */
+		color: var(--text-light) !important;
+	}
+
+	.dw-sbi, .dw-sb-btn { /* definition search for word */
+		background-color: var(--bg-light) !important;
+		border-color: var(--bg-highlight) !important;
+		color: var(--text-light) !important;
+	}
+
+	.dw-sb-cont { /* definition search bar container */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	.MR2UAc, .cO53qb { /* definition similar */
+		background-color: var(--bg-dark) !important;
+		border-color: var(--bg-light) !important;
+	}
+
+	.MR2UAc { /* definition similar active */
+		color: var(--text-light) !important;
+	}
+
+	.MR2UAc:hover { /* definition similar active hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.cO53qb { /* definition similar passive */
+		color: var(--text-dark) !important;
+	}
+
+	.mQo3nc { /* definition word usage */
+		background-color: var(--bg-light) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.vfmVQ { /* definition speaker button */
+		background-color: var(--bg-dark) !important;
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.pVFdhc { /* definition horizontal dividers */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.M4dUYb { /* definition diagrams */
+		filter: invert(91.3%) hue-rotate(180deg);
+	}
+
+	.LiOdre.pOf5Yd.vk_bk.Uekwlc.hide-focus-ring.TVSh { /* definition translate to language selection */
+		background-color: var(--bg-dark) !important;
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.Z0LcW { /* people also ask result heading */
+		color: var(--text-light) !important;
 	}
 	/* ************************************************ END results */
 
@@ -459,6 +533,34 @@
 		background-color: var(--bg-highlight) !important;
 	}
 
+	.LMMXP { /* video results title */
+		color: var(--text-light) !important;
+	}
+
+	.WpKAof { /* video results entry */
+		color: var(--text-link) !important;
+	}
+
+	.WpKAof:hover { /* video results entry hover highlight */
+		background-color: var(--bg-light) !important;
+	}
+
+	.MXl0lf.mtqGb { /* video results view all button */
+		background-color: var(--bg-light) !important;
+		border-color: var(--bg-light) !important;
+	}
+
+	.MXl0lf.mtqGb:hover { /* video results view all button hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.hDeAhf { /* video results source name */
+		color: var(--text-light) !important;
+	}
+
+	.VibNM:first-child { /* video results top border corner */
+		border-radius: 8px;
+	}
 	/* ************************************************ END video snippets */	
 
 	.q.qs, .hdtb-dd-b, .hdtb-tl { /* navbar text */
@@ -767,8 +869,9 @@
 		background-color: var(--bg-light) !important;
 	}
 
-	.wWdzec { /* week number bg */
+	.wWdzec { /* week number */
 		background-color: var(--bg-light) !important;
+		color: var(--text-dark) !important;
 	}
 
 	.yzYBvd { /* month view day number */
@@ -944,6 +1047,39 @@
 	.yEkOpe { /* edit event find time week view day dividers */
 		background-color: var(--bg-dark) !important;
 		border-color: var(--bg-highlight) !important;
+	}
+
+	.wmCMbe { /* add event popup top bar  */
+		background-color: var(--bg-light) !important;
+		box-shadow: inset 0 1px 0 var(--bg-highdark) !important;
+	}
+
+	.IuSHYd.GOJTSe:not(.N2RpBe) .dobRbb:hover { /* custom recurrence popup repeat on days hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.YWILgc { /* view reminder popup divider */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.cu6vzc .zHQkBf { /* edit reminder popup text input */
+		color: var(--text-light) !important;
+	}
+
+	.AouyCd { /* edit reminder popup datetime background */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	.Y5FYJe:hover { /* view reminder top buttons hover highlight */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.Kpcujb { /* edit reminder popup all day text */
+		color: var(--text-light) !important;
+	}
+
+	.ndJi5d.snByac { /* edit reminder popup title placeholder */
+		color: var(--text-dark) !important;
 	}
 }
 
