@@ -5,14 +5,16 @@
 	--bg-light: 			#2b2b2b;
 	--bg-highlight: 		#363636; /* also border */
 	--bg-highdark:			#161616;
+	--bg-light-blue:		#a6bfd9;
 
 	--text-bg:				#5F6368;
 	--text-dark:			#AAAAAA;
 	--text-light:			#FFFFFF;
-	--text-link:			#3EA6FF;
-	--text-link-visited: 	#9E8CDB;
+	--text-link:			#1a94ff;
+	--text-link-visited: 	#8a66ff;
 	--text-green:			#36C263;
 	--text-red:				#E05A5A;
+	--text-blue:			#3939FF;
 
 	/* mappings from base colors to site-specific variables should be done in the site-specific :root */
 
@@ -304,7 +306,7 @@
 		background-color: var(--bg-highlight) !important;
 	}
 
-	.M4dUYb { /* definition diagrams */
+	.xpdxpnd .rISBZc.M4dUYb { /* definition diagrams */
 		filter: invert(91.3%) hue-rotate(180deg);
 	}
 
@@ -315,6 +317,56 @@
 
 	.Z0LcW { /* people also ask result heading */
 		color: var(--text-light) !important;
+	}
+
+	.GgmXif.jY7QFf { /* definition word color */
+		color: var(--text-light) !important;
+	}
+
+	.thODed.Uekwlc { /* definition definition text */
+		color: var(--text-light) !important;
+	}
+
+	.vdBwhd { /* definition word type */
+		color: var(--text-light) !important;
+	}
+
+	.xpdxpnd { /* definition origin information text */
+		color: var(--text-dark) !important;
+	}
+
+	.vk_sh { /* definition sub headings */
+		color: var(--text-light) !important;
+	}
+
+	.I6TXqe { /* POI information sidebar */
+		background-color: var(--bg-highdark) !important;
+		border-color: var(--bg-highlight) !important;
+		color: var(--text-light) !important;
+	}
+
+	.I6TXqe * { /* POI information sidebar subdivider */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.qrShPb { /* POI information sidebar heading */
+		color: var(--text-light) !important;
+	}
+
+	.Ss2Faf, .Ss2Faf a { /* POI information sidebar subheading */
+		color: var(--text-light) !important;
+	}
+
+	.Rlm17c { /* POI information sidebar profiles logos */
+		background-color: var(--bg-highdark) !important;
+	}
+
+	.kno-vrt-t a { /* POI information sidebar profiles links */
+		color: var(--text-link) !important;
+	}
+
+	.kno-vrt-t a:visited { /* POI information sidebar profiles links visited */
+		color: var(--text-link-visited) !important;
 	}
 	/* ************************************************ END results */
 
@@ -1435,15 +1487,6 @@
 		border: 1px solid var(--bg-highlight) !important;
 	}
 
-	.vertical-navbox th, .vertical-navbox td {
-		background: var(--bg-dark) !important;
-	}
-
-	div.NavHead {
-		background: var(--bg-dark) !important;
-		color: var(--text-light) !important;
-	}
-
 	.navbox {
 		background: var(--bg-dark) !important;
 		border: 1px solid var(--bg-highlight) !important;
@@ -1473,13 +1516,146 @@
 		color: var(--text-light) !important;
 	}
 
-	.mwe-popups, .mwe-popups-extract, .mwe-popups-extract * {
+	.mwe-popups, .mwe-popups-extract, .mwe-popups-extract * { /* link hover popup preview */
 		background-color: var(--bg-highdark) !important;
 		color: var(--text-dark) !important;
 	}
 
+	.mwe-popups .mwe-popups-extract[dir=ltr]::after { /* link hover popup preview end of text fade */
+		background-image: linear-gradient(to right, transparent, var(--bg-highdark) 50%) !important;
+	}
+
+	.mw-ui-icon.mw-ui-icon-small::before {
+		filter: invert();
+	}
+
+	.mwe-popups-settings-icon:hover {
+		background-color: var(--bg-light) !important;
+	}
+
 	.mwe-math-fallback-image-inline { /* formulas */
 		filter: invert();
+	}
+
+	#ca-view, #ca-edit, #ca-history, #ca-nstab-main, #ca-talk, #ca-viewsource { /* nav bar */
+		background: var(--bg-highdark) !important;
+	}
+
+	.vector-menu-content-list a { /* nav bar */
+		color: var(--text-link) !important
+
+	}
+
+	.vector-menu-content-list a:visited { /* nav bar */
+		color: var(--text-link-visited) !important;
+	}
+
+	.vector-menu-content-list .selected>a { /* nav bar */
+		color: var(--text-light) !important;
+	}
+
+	.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 { /* nav bar dividers */
+		background-image: linear-gradient(to bottom, var(--bg-highdark) 0, var(--bg-highlight) 100%) !important;
+	}
+
+	.infobox th:not([scope="row"]) { /* infobox headings */
+		background-color: var(--bg-light-blue) !important;
+	}
+
+	img[alt^="Writing cursive forms of"], img[src^="/w/extensions/wikihiero/img/"], img[alt="About this sound"] { /* image invert*/
+		filter: invert() !important;
+	}
+
+	.infobox { /* infobox bg */
+		background-image: linear-gradient(to bottom, var(--bg-light), var(--bg-light)) !important;
+		color: var(--text-dark) !important;
+	}
+
+	.infobox * {
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.keyboard-key, code { /* keyboard key, code*/
+		background: var(--bg-highdark) !important;
+		color: var(--text-dark) !important;
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.nn { /* dark blue code text */
+		color: var(--text-blue) !important;
+	}
+
+	li.gallerybox div.thumb { /* images */
+		border: none !important;
+		background-color: transparent !important;
+	}
+
+	.portal>ul { /* portal */
+		background: var(--bg-light) !important;
+	}
+
+	.portal { /* portal */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.vertical-navbox tbody, .vertical-navbox th, .vertical-navbox>tbody>tr:first-child>td, .vertical-navbox>tbody>tr:last-child>td { /* navigation box */
+		background-color: var(--bg-light) !important;
+	}
+
+	.NavHead { /* naviagtion box topic heading */
+		background-color: var(--bg-dark) !important;
+		border-color: var(--bg-highlight) !important;
+		color: var(--text-light) !important;
+	}
+
+	.NavContent, .NavContent { /* navigation box topic content */
+		background-color: var(--bg-light) !important;
+		border: none !important;
+	}
+
+	.vertical-navbox a>span { /* navigation box heading */
+		color: inherit !important;
+	}
+
+	.vertical-navbox * { /* navigation box dividers */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.vertical-navbox hr { /* navigation box dividers */
+		background-color: var(--bg-highlight) !important;
+	}
+
+	.vertical-navbox ul { /* navigation box list bullet */
+		list-style-image: none !important;
+	}
+
+	.NavContent>div { /* navigation box topic content sub heading */
+		background-color: transparent !important;
+	}
+
+	.NavContent th { /* navigation box topic content sub heading */
+		color: var(--text-dark) !important;
+	}
+
+	.toctogglelabel { /* table of contents toggle */
+		color: var(--text-link) !important;
+	}
+
+	.sistersitebox { /* sister site box */
+		background-color: var(--bg-light) !important;
+		border-color: var(--bg-highlight) !important;
+	}
+
+	img.thumbborder { /* images with border */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.catlinks li { /* category links verticcal dividers */
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.vector-menu-portal h3 { /* left sidebar horizontal dividers */
+		background-image: linear-gradient(to right, var(--bg-dark) 0, var(--bg-highlight) 33%, var(--bg-highlight) 66%, var(--bg-dark) 100%) !important;
 	}
 }
 
