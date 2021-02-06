@@ -650,6 +650,53 @@
 		color: var(--text-link-visited) !important;
 	}
 
+	.XcVN5d.DgZBFd.frCXef { /* definition heading */
+		color: var(--text-light) !important;
+	}
+
+	.L1jWkf.h3TRxf { /* definition "translation" (synonyms) */
+		color: var(--text-light) !important;
+	}
+
+	.SDZsVb.IvF8ze { /* definition "translation" link */
+		color: var(--text-link) !important;
+	}
+
+	.LiOdre.mfsgsd.pOf5Yd.hide-focus-ring.TVSh.JBcDBe { /* definition translate to dropdown */
+		background: var(--bg-dark) !important;
+		color: var(--text-light) !important;
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.LiOdre.mfsgsd.pOf5Yd.hide-focus-ring.TVSh.JBcDBe:hover { /* definition translate to dropdown hover highlight*/
+		background: var(--bg-light) !important;
+	}
+
+	.LiOdre.mfsgsd.pOf5Yd.hide-focus-ring.TVSh.JBcDBe>option{ /* definition translate to dropdown items*/
+		background: var(--bg-highlight) !important;
+		color: var(--text-light) !important;
+		border-color: var(--bg-highlight) !important;
+	}
+
+	.LiOdre.mfsgsd.pOf5Yd.hide-focus-ring.TVSh.JBcDBe>option:hover { /* definition translate to dropdown hover highlight*/
+		background: var(--bg-light) !important;
+	}
+
+	.pttFI.wMcVAc { /* definition translate X to heading */
+		color: var(--text-light) !important;
+	}
+
+	.Wyuude.L1jWkf { /* definition translated words */
+		color: var(--text-light) !important;
+	}
+
+	.XGaHQb.VyieNc {/* definition translation word type */
+		 color: var(--text-light) !important;
+	}
+
+	.glhbv.pa8yL.z1asCe.Fp7My {/* wikipedia excerpt share button */
+		color: var(--text-light) !important; /* it is dimmed separately */
+	}
 	/* ************************************************************************ END all page */
 
 	/* ************************************************************************ BEGIN images page */
@@ -734,7 +781,11 @@
 
 	.igM9Le { /* tools options dropdown text color */
 		color: var(--text-dark) !important;
-	} 
+	}
+
+	.yg51vc { /* navbar bg */
+		background: var(--bg-dark) !important;
+	}
 	/* ************************************************ END nav bar / chips */
 	/* ************************************************************************ END images page */
 }
@@ -1562,7 +1613,7 @@
 		background-color: var(--bg-light-blue) !important;
 	}
 
-	img[alt^="Writing cursive forms of"], img[src^="/w/extensions/wikihiero/img/"], img[alt="About this sound"] { /* image invert*/
+	img[alt^="Writing cursive forms of"], img[src^="/w/extensions/wikihiero/img/"], img[alt="About this sound"], img[alt="inline"] { /* image invert*/
 		filter: invert() !important;
 	}
 
@@ -1575,7 +1626,7 @@
 		border-color: var(--bg-highlight) !important;
 	}
 
-	.keyboard-key, code { /* keyboard key, code*/
+	kbd, code { /* keyboard key, code*/
 		background: var(--bg-highdark) !important;
 		color: var(--text-dark) !important;
 		border-color: var(--bg-highlight) !important;
